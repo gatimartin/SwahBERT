@@ -3,6 +3,20 @@ Is a pretrained monolingual language model for Swahili. <br>
 The model was trained for 800K steps using a corpus of 105MB that was collected from news sites, online discussion, and Wikipedia. <br>
 The evaluation was perfomed on several downstream tasks such as emotion classification, news classification, sentiment classification, and Named entity recognition.
 
+```
+import torch
+from transformers import BertTokenizer
+
+tokenizer = BertTokenizer.from_pretrained("swahbert-base-uncased")
+
+# Tokenized input
+text = "Mlima Kilimanjaro unapatikana Tanzania"
+tokenized_text = tokenizer.tokenize(text)
+
+SwahBERT => ['mlima', 'kilimanjaro', 'unapatikana', 'tanzania']
+mBERT => ['ml', '##ima', 'ki', '##lima', '##nja', '##ro', 'una', '##patikana', 'tan', '##zania']
+
+```
 
 ## Pre-training data
 The text was extracted from different sorces;<br>
