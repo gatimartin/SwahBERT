@@ -1,16 +1,17 @@
 # SwahBERT
 Is a pretrained monolingual language model for Swahili. <br>
 The model was trained for 800K steps using a corpus of 105MB that was collected from news sites, online discussion, and Wikipedia. <br>
-The evaluation was perfomed on several downstream tasks such as emotion classification, news classification, and Named entity recognition.
+The evaluation was perfomed on several downstream tasks such as emotion classification, news classification, sentiment classification, and Named entity recognition.
 
 
-## Pre-training Corpus
+## Pre-training data
 The text was extracted from different sorces;<br>
  - News sites: `United Nations news, Voice of America (VoA), Deutsche Welle (DW) and taifaleo`<br>
  - Forums: `JaiiForum`<br>
  - ``Wikipedia``.
 
 ## Pre-trained Models
+Download the models here:<br>
 `SwahBERT-Base, Uncased` <br>
 `SwahBERT-Base, Cased`
 
