@@ -3,7 +3,7 @@ Is a pretrained monolingual language model for Swahili. <br>
 The model was trained for 800K steps using a corpus of 105MB that was collected from news sites, online discussion, and Wikipedia. <br>
 The evaluation was perfomed on several downstream tasks such as emotion classification, news classification, sentiment classification, and Named entity recognition.
 
-```
+```ruby
 import torch
 from transformers import BertTokenizer
 
@@ -26,8 +26,8 @@ The text was extracted from different sorces;<br>
 
 ## Pre-trained Models
 Download the models here:<br>
-`SwahBERT-Base, Uncased` <br>
-`SwahBERT-Base, Cased`
+- **[`SwahBERT-Base, Uncased`](https://drive.google.com/drive/folders/1HZTCqxt93F5NcvgAWcbrXZammBPizdxF?usp=sharing)**:12-layer, 768-hidden, 12-heads , 110M parameters
+- **[`SwahBERT-Base, Cased`](https://drive.google.com/drive/folders/1cCcPopqTyzY6AnH9quKcT9kG5zH7tgEZ?usp=sharing)**:12-layer, 768-hidden, 12-heads , 110M parameters
 
 Steps | vocab size | MLM acc | NSP acc | loss |
 --- | --- | --- | --- | --- |
