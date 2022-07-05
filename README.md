@@ -1,4 +1,4 @@
-# SwahBERT
+# SwahBERT: Language model of Swahili
 Is a pretrained monolingual language model for Swahili. <br>
 The model was trained for 800K steps using a corpus of 105MB that was collected from news sites, online discussion, and Wikipedia. <br>
 The evaluation was perfomed on several downstream tasks such as emotion classification, news classification, sentiment classification, and Named entity recognition.
