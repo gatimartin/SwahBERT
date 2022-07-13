@@ -31,11 +31,9 @@ Download the models here:<br>
 
 Steps | vocab size | MLM acc | NSP acc | loss |
 --- | --- | --- | --- | --- |
-800K | 32K (uncased) | 73.37 | 99.50 | 1.1822 | 
 **800K** | **50K (uncased)** | **76.54** | **99.67** | **1.0667** |
-800K | 70K (uncased) | 73.38 | 100.0 | 1.2131 | 
 **800K** | **32K (cased)** | **76.94** | **99.33** | **1.0562** | 
-1M | 32K (cased) | 73.81 | 98.17 | 1.2732 |
+
 
 
 ## Evaluation
@@ -50,5 +48,20 @@ Sentiment | 70.94 | 71.12 | 67.20 |
 NER | 88.50 | 88.60 | 89.36 |
 
 
+## Citation
+Please use the following citation if you use the model or dataset:
 
+``` 
+@inproceedings{martin-etal-2022-swahbert,
+    title = "{S}wah{BERT}: Language Model of {S}wahili",
+    author = "Martin, Gati  and Mswahili, Medard Edmund  and Jeong, Young-Seob  and Woo, Jiyoung",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.23",
+    pages = "303--313"
+    }
+```
 
