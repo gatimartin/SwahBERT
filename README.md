@@ -24,6 +24,7 @@ The text was extracted from different sorces;<br>
  - Forums: `JaiiForum`<br>
  - ``Wikipedia``.
 
+
 ## Pre-trained Models
 Download the models here:<br>
 - **[`SwahBERT-Base, Uncased`](https://drive.google.com/drive/folders/1HZTCqxt93F5NcvgAWcbrXZammBPizdxF?usp=sharing)**:12-layer, 768-hidden, 12-heads , 124M parameters
@@ -35,6 +36,10 @@ Steps | vocab size | MLM acc | NSP acc | loss |
 **800K** | **32K (cased)** | **76.94** | **99.33** | **1.0562** | 
 
 
+## Emotion Dataset
+We released the Swahili emotion dataset.
+The data consists of ~13K emotion annotated comments from social media platforms and translated English dataset. 
+The data is multi-label with six Ekman’s emotions:  happy, surprise, sadness, fear, anger, and disgust or neutral.
 
 ## Evaluation
 The model was tested on four downstream tasks including our new emotion dataset                                                                                                                                                                                         
