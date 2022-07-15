@@ -37,8 +37,8 @@ Steps | vocab size | MLM acc | NSP acc | loss |
 
 
 ## Emotion Dataset
-We released the Swahili emotion dataset.
-The data consists of ~13K emotion annotated comments from social media platforms and translated English dataset. 
+We released the **[`Swahili emotion dataset`](https://github.com/gatimartin/SwahBERT/tree/main/emotion_dataset)**.<br>
+The data consists of ~13K emotion annotated comments from social media platforms and translated English dataset. <br>
 The data is multi-label with six Ekman’s emotions:  happy, surprise, sadness, fear, anger, and disgust or neutral.
 
 ## Evaluation
